@@ -1,0 +1,22 @@
+spring:
+  application:
+    name: gulimall-member
+  cloud:
+    nacos:
+      config:
+        server-addr: 127.0.0.1:8848
+        namespace: b272a0c9-4b39-400a-9918-9af7bdd5191a
+        group: dev
+        extension-configs[0]:
+          data-id: mybaties.yml
+          group: dev
+          refresh: true
+        extension-configs[1]:
+          data-id: datasource.yml
+          group: dev
+          refresh: true
+        extension-configs[2]:
+          data-id: other.yml
+          group: dev
+          refresh: true
+
