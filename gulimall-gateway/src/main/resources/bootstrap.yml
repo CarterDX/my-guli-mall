@@ -6,5 +6,9 @@ spring:
       server-addr: 127.0.0.1:8848
       config:
         namespace: 5c113171-3d59-4709-80f0-fa7f0c3dc798
+        extension-configs[0]:
+          data-id: other.yml
+          group: dev
+          refresh: true
         group: dev
         file-extension: yml

@@ -8,7 +8,7 @@ spring:
         namespace: b272a0c9-4b39-400a-9918-9af7bdd5191a
         group: dev
         extension-configs[0]:
-          data-id: mybaties.yml
+          data-id: mybatis.yml
           group: dev
           refresh: true
         extension-configs[1]:

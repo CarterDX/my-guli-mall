@@ -7,7 +7,7 @@ spring:
         server-addr: 127.0.0.1:8848
         namespace: b282a40f-7198-4653-9434-4614caa68c38
         extension-configs[0]:
-          data-id: mybaties.yml
+          data-id: mybatis.yml
           group: dev
           refresh: true
         extension-configs[1]:
